@@ -76,25 +76,12 @@ h1 {
 
 .container-exercicioB {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
-    height: 200px;
-    width: 100%;
-    background-color: #333;
-    color: white;
-}
-
-.container-exercicioB .flex-item {
-    margin: 0 10px;
+    flex-direction: column;
 }
 
 .container-desafio {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: flex-start;
 }
 
-.container-desafio .flex-item:last-child {
-    margin-right: auto;
-}
